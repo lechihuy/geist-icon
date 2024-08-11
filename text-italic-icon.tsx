@@ -2,6 +2,13 @@ import { IconProps } from ".";
 
 export function TextItalicIcon(props: IconProps) {
   return (
-    <svg {...props} strokeLinejoin="round" viewBox="0 0 16 16"><path fillRule="evenodd" clipRule="evenodd" d="M4.25 1H5H13.75H14.5V2.5H13.75H10.5475L7.02746 13.5H11H11.75V15H11H2.25H1.5V13.5H2.25H5.45254L8.97254 2.5H5H4.25V1Z" fill="currentColor"></path></svg>
+    <svg {...props} strokeLinejoin="round" viewBox="0 0 16 16">
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M4.25 1H5H13.75H14.5V2.5H13.75H10.5475L7.02746 13.5H11H11.75V15H11H2.25H1.5V13.5H2.25H5.45254L8.97254 2.5H5H4.25V1Z"
+        fill="currentColor"
+      ></path>
+    </svg>
   );
 }
